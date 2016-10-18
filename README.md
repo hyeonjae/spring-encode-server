@@ -35,20 +35,28 @@
 ### POST /api/urlencode/encode
 #### Request body
 ```json
-
+{
+    "text": "https://github.com/hyeonjae/spring-encode-server"
+}
 ```
 #### Response body
 ```json
-
+{
+    "result": "https%3A%2F%2Fgithub.com%2Fhyeonjae%2Fspring-encode-server"
+}
 ```
 
 
 ### POST /api/urlencode/decode
 #### Request body
 ```json
-
+{
+    "text": "https%3A%2F%2Fgithub.com%2Fhyeonjae%2Fspring-encode-server"
+}
 ```
 #### Response body
 ```json
-
+{
+    "result": "https://github.com/hyeonjae/spring-encode-server"
+}
 ```
